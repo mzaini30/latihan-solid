@@ -3,7 +3,13 @@ import {Link} from 'solid-app-router'
 import {For} from 'solid-js'
 
 const daftarIsi = [
+	{judul: 'Angka', link: '/angka'},
 	{judul: 'Dasar', link: '/dasar'},
+	{judul: 'Perulangan', link: '/perulangan'},
+	{judul: 'Hello', link: '/hello'},
+	{judul: 'Method', link: '/method'},
+	{judul: 'Nilai', link: '/nilai'},
+	{judul: 'Template', link: '/template'},
 ]
 
 export default function(){
