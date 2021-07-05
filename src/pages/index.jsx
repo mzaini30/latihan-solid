@@ -4,11 +4,12 @@ import {For} from 'solid-js'
 
 const daftarIsi = [
 	{judul: 'Angka', link: '/angka'},
+	{judul: 'Bulma', link: '/bulma'},
 	{judul: 'Dasar', link: '/dasar'},
-	{judul: 'Perulangan', link: '/perulangan'},
 	{judul: 'Hello', link: '/hello'},
 	{judul: 'Method', link: '/method'},
 	{judul: 'Nilai', link: '/nilai'},
+	{judul: 'Perulangan', link: '/perulangan'},
 	{judul: 'Template', link: '/template'},
 ]
 

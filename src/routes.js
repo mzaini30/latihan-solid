@@ -2,6 +2,7 @@ import { lazy } from 'solid-js'
 
 const index = lazy(() => import('/src/pages/index.jsx'))
 const angka = lazy(() => import('/src/pages/angka.jsx'))
+const bulma = lazy(() => import('/src/pages/bulma.jsx'))
 const dasar = lazy(() => import('/src/pages/dasar.jsx'))
 const hello = lazy(() => import('/src/pages/hello.jsx'))
 const method = lazy(() => import('/src/pages/method.jsx'))
@@ -19,6 +20,11 @@ export default [
     name: 'angka',
     path: '/angka',
     component: angka,
+  },
+  {
+    name: 'bulma',
+    path: '/bulma',
+    component: bulma,
   },
   {
     name: 'dasar',
